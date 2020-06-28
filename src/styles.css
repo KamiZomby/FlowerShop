@@ -3,7 +3,12 @@ body {
   color: #333;
 }
 
-h1 {
+h1, h2 {
   font-style: "Barlow", sans-serif;
+  text-align: center;
+}
+
+#header {
+  margin-bottom: 2.5%;
 }
 /*# sourceMappingURL=styles.css.map */

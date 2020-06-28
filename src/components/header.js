@@ -1,13 +1,17 @@
-import "./styles.css";
+var app2 = new Vue({
+    el: '#header',
+    data: {
+        favicon: '/src/images/Flower-Logo.png',
+        title: "Flower Shop",
+        logo: '/src/images/Flower-Logo.png',
+    }
+})
 
 
-const logo = '/src/images/Flower-Logo.png';
-
-document.getElementById("header").innerHTML = `
-    <div>
-        <img src="${logo}" alt="logo">
-        <div>
-            <p>idfbn</p>
-        </div>
-    </div>
-`;
+var title = new Vue({
+    el: '#title',
+    data: {
+        favicon: '/src/images/Flower-Logo.png',
+        title: "Flower Shop"
+    }
+})
